@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | TravelExplorer</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">TravelExplorer</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#features">Features</a></li>
+        <li class="link"><a href="#about">About Us</a></li>
+        <li class="link"><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="search__box">
+        <input type="text" placeholder="Search" />
+        <i class="ri-search-line"></i>
+      </div>
+    </nav>
+    <section id="home" class="container">
+      <div class="container__left">
+        <div class="content">
+          <h1>DISCOVERING<br />THE WORLD.</h1>
+          <p>
+            Through travel, individuals have the opportunity to immerse
+            themselves in different cultures, try new foods, and witness the
+            beauty of nature. Exploring new places can also challenge one's
+            comfort zone and help to develop important life skills.
+          </p>
+          <div class="btns">
+            <button class="read__more">Read More</button>
+            <button class="our__blogs">Our Blogs</button>
+          </div>
+          <div class="chevrons">
+            <span class="chev__left">
+              <i class="ri-arrow-left-s-line"></i>
+            </span>
+            <span class="chev__right">
+              <i class="ri-arrow-right-s-line"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container__right">
+        <form>
+          <h4>Where do you want to go?</h4>
+          <div class="form__group">
+            <label for="destination">Destination</label>
+            <input
+              type="text"
+              name="destination"
+              id="destination"
+              placeholder="Enter destination"
+            />
+          </div>
+          <div class="form__group">
+            <label for="date">Date</label>
+            <input type="text" name="date" id="date" placeholder="dd/mm/yyyy" />
+          </div>
+          <button type="submit">Check Travel Package</button>
+        </form>
+      </div>
+    </section>
+    <section id="features" class="features">
+      <h2>Our Features</h2>
+      <div class="features__container">
+        <div class="feature">
+          <i class="ri-map-pin-line"></i>
+          <h3>Explore Destinations</h3>
+          <p>
+            Discover top destinations around the world and create your unique
+            travel itinerary.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="ri-flight-takeoff-line"></i>
+          <h3>Book Flights</h3>
+          <p>
+            Find the best deals on flights and book your tickets with ease.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="ri-hotel-line"></i>
+          <h3>Stay in Comfort</h3>
+          <p>
+            Choose from a wide range of hotels and accommodations to suit your
+            style.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        At TravelExplorer, we are passionate about helping travelers explore the
+        world. Our platform offers everything you need to plan your next
+        adventure, from destination guides to booking tools.
+      </p>
+      <br>
+      
+      <div class="teambtns">
+        <button class="our__team">TeamMember1</button>
+        <button class="our__team">TeamMember2</button>
+        <button class="our__team">TeamMember3</button>
+      </div>
+    
+    
+    </section>
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial__container">
+        <div class="testimonial">
+          <p>"Travel.Io made planning our vacation so easy and stress-free!"</p>
+          <span>- Sarah M.</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "The best travel experience I've ever had. Highly recommend
+            Travel.Io!"
+          </p>
+          <span>- John D.</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            "Everything from booking to our stay was perfect. Thank you,
+            TravelExplorer!"
+          </p>
+          <span>- Emily R.</span>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Your Name" />
+        </div>
+        <div class="form__group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Your Email" />
+        </div>
+        <div class="form__group">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Your Message"
+          ></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2024 TravelExplorer. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
